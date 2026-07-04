@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6ff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0b2c6b;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 90px;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+}
+
+.btn {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* RESULT BOX */
+#resultBox {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* NOTICE */
+#noticeBox {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+/* FORM */
+form {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  background: #1e3a8a;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  text-decoration: none;
+}
