@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ambition Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<header>
+  <div class="logo">
+    <img src="images/logo.jpg">
+    <h1>Ambition Academy</h1>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#notice">Notice</a>
+    <a href="#results">Results</a>
+    <a href="#admission">Admission</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h2>Education for Mankind</h2>
+  <p>PG to Grade 10 | Siraha-7, Nepal</p>
+  <a href="#admission" class="btn">Apply Now</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p>
+    Ambition Academy is committed to excellence in education with modern teaching,
+    discipline, and strong academic results.
+  </p>
+</section>
+
+<!-- NOTICE -->
+<section id="notice" class="section">
+  <h2>📢 Notice Board</h2>
+  <div id="noticeBox"></div>
+</section>
+
+<!-- RESULTS SEARCH -->
+<section id="results" class="section">
+  <h2>🎓 SEE Results 2083</h2>
+
+  <input type="text" id="rollInput" placeholder="Enter Roll Number">
+  <button onclick="searchResult()">Search</button>
+
+  <div id="resultBox"></div>
+</section>
+
+<!-- ADMISSION -->
+<section id="admission" class="section">
+  <h2>Admission Form</h2>
+
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Student Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+
+    <select>
+      <option>PG</option>
+      <option>Nursery</option>
+      <option>Grade 1-10</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>📍 Siraha-7, Nepal</p>
+  <p>📞 9842828259</p>
+</section>
+
+<!-- WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/9779842828259">💬 Chat</a>
+
+<footer>
+  <p>© 2026 Ambition Academy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
